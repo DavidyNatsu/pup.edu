@@ -228,7 +228,7 @@ nav{
     width: 100%;
     display: inline-block;
     text-align: left;
-    padding-right: 10%;
+   
 }
 .contents .TP p{
     padding-left: 3%;
@@ -327,6 +327,7 @@ p1{
     }
     body{
         height: auto;
+        width: 100%;
     }
     .navigation nav{
         width: 100%;
@@ -556,6 +557,49 @@ p1{
 
 }
 @media only screen and (max-width: 721px){
+    .navigation{
+        width: 100%;
+    }
+    .navigation nav{
+        width: 100%;
+        height: 50px;
+    }
+    .navigation nav img{
+        width: 40px;
+        height: auto;
+    }
+    .nav-links ul li{
+        padding: 0px 0px;
+    }
+    .nav-links ul li a{
+        font-size: 15px;
+    }
+    .SecondNavigation nav img{
+        width: 200px;
+        height: auto;
+    }
+    .SecondNavigation h1{
+        font-size: 45px;
+    }
+    .SecondNavigation p{
+        font-size: 30px;
+        padding-left: 5px;
+    }
+    .secondnav-links ul li{
+        padding: 0px 5px;
+    }
+    .secondnav-links ul li a{
+        font-size: 25px;
+    }
+    .BigContainer{
+        width: 100%;
+    }
+    .bgc{
+        padding: 2% 3% 2% 2%;
+    }
+    .content{
+        padding: 1% 1% 1% 1%;
+    }
     .Con-head h1{
         font-size: 30px;
     }
@@ -567,6 +611,10 @@ p1{
     }
     .Con-head p{
         font-size: 20px;
+    }
+    .con-body{
+        width: 100%;
+        padding: 2% 5% 2% 5%;
     }
     .con-body h1{
         font-size: 30px;
@@ -590,27 +638,54 @@ p1{
         line-height: 170%;
     }
     .sec-head h1{
-        font-size: 40px;
+        font-size: 35px;
     }
     .sec-head p{
         font-size: 20px;
+        padding: 0% 10% 2% 15%;
     }
-    .imageCarousel > .Containers > img{
-        height: 400px;
+    .sec-head{
+        width: 100%;
+        padding: 2% 2% 2% 2%;
+    }
+    .sec-header{
+        padding: 2% 2% 2% 2%;
+    }
+    .contents .CV{
+        padding-left: 2%;
+    }
+    .sec-bod{
+        padding: 2% 2% 2% 2%;
+    }
+    .TP{
+        padding: 2% 2% 2% 2%;
+    }
+    .TP h1{
+        font-size: 28;
+    }
+    .End{
+        height: auto;
+    }
+    .End .pic{
+        padding-top: 4%;
+        padding-left: 5%;
     }
     .End img{
         padding: 0;
-        width: 200px;
-        height: 150px;
+        width: 300px;
+        height: 250px;
     }
     .endbox h5{
-        font-size: 18px;
+        font-size: 20px;
     }
     .endbox ul li a{
-        font-size: 14px;
+        font-size: 16px;
     }
     .endbox p1{
-        font-size: 14px;
+        font-size: 16px;
+    }
+    .imageCarousel > .Containers > img{
+        height: 400px;
     }
 }
 @media only screen and (max-width: 641px){
@@ -626,5 +701,19 @@ p1{
     }
     .secondnav-links ul li{
         padding-left: 8%;
+    }
+    .End img{
+        padding: 0;
+        width: 200px;
+        height: 150px;
+    }
+    .endbox h5{
+        font-size: 18px;
+    }
+    .endbox ul li a{
+        font-size: 14px;
+    }
+    .endbox p1{
+        font-size: 14px;
     }
 }
