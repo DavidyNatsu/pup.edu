@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+body{
+    width: auto;
+}
+/*---------------First Navigation Section------------*/
+.navigation{
+    height: auto;
+    width: 100%;
+}
+.navigation nav{
+    background-image: linear-gradient(rgba(104, 83, 87, 0.829),rgba(241, 240, 240, 0.7)),url("image/bkg-blu.jpg");
+    display: flex;
+    padding: 2% 10%;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+}
+nav img{
+     height: auto;
+     width: 30px; 
+}
+.nav-links{
+     flex: 1;
+     text-align: right;
+}
+.nav-links ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 8px 12px;
+     position: relative; 
+     padding-top: 2px;  
+}
+.nav-links ul li a{
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     font-size: 15px;
+     font-weight: 700;
+}
+.nav-links ul li::after{
+     content: '';
+     width: 0%;
+     height: 2px;
+     background: rgb(102, 6, 6);
+     display: block;
+     margin: auto;
+     transition: 0.2s; 
+}
+.nav-links ul li:hover::after{
+     width: 100%;
+}
+/*---------------Second Navigation Section------------*/
+.SecondNavigation{
+    width: 100%;
+    height: auto;
+}
+nav{
+    background-image: linear-gradient(rgba(138, 81, 90, 0.829),rgba(255, 251, 251, 0.7)),url("image/bkg-blu.jpg");
+    display: flex;
+    padding: 2% 6%;
+    align-items: center;
+}
+.SecondNavigation nav img{
+    height: auto;
+    width: 130px;
+    padding-left: 15px;
+}
+.SecondNavigation h1{
+   color: rgb(122, 4, 4);
+   font-size: 30px;
+}
+.SecondNavigation p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+.SecondNavigation .secondnav-links{
+    flex: 1;
+    text-align: left;
+}
+.secondnav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 20px;
+    position: relative; 
+    padding-top: 20px;
+}
+.secondnav-links ul li a{
+    color: rgb(95, 6, 6);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+.secondnav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: rgb(119, 4, 4);
+    display: block;
+    margin: auto;
+    transition: 0.2s; 
+}
+.secondnav-links ul li:hover::after{
+    width: 100%;
+}
+/*----- Body Section -----*/
+.Contents{
+    background-image: linear-gradient(rgba(255, 251, 251, 0.7),rgba(255, 255, 255, 0.7)),url("image/bkg-blu.jpg");
+}
+.Cbody{
+    width: 90%;
+}
+.Message{
+    padding-top: 2%;
+    padding-left: 10%;
+}
+.Message h1{
+    color: rgb(119, 4, 4);
+}
+.Message h2{
+    color: rgb(119, 4, 4);
+}
+.Message h3{
+    color: rgb(119, 4, 4);
+}
+.Message p{
+    font-size: 18px;
+    color: rgb(73, 70, 70);
+}
+.Message p2{
+    padding-left: 3%;
+    font-size: 30px;
+    color: rgb(73, 70, 70);
+}
+/*-------Table---------*/
+.TB{
+    width: 50%;
+    border: 10px solid transparent;
+    border-image: url("image/bl.jpg") 30 round;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+.tb1{
+    text-align: left;
+  }
+.tb2{
+    text-align: right;
+}
+th{
+    background-image: linear-gradient(rgba(170, 133, 139, 0.829),rgba(255, 251, 251, 0.7)),url("image/bkg-blu.jpg");
+    text-align: center;
+    color: rgb(119, 4, 4);
+}
+  td, th {
+    border: 2px solid #dddddd;
+    padding: 8px;
+  }
+  td{
+    color: rgb(73, 70, 70);
+  }
+
+/*----- Second Section -----*/
+.SecondBody{
+    background-image: linear-gradient(rgba(255, 251, 251, 0.7),rgba(255, 255, 255, 0.7)),url("image/bkg-blu.jpg");
+    width: 100%;
+    height: auto;
+}
+.ImpLinks{
+    padding-left: 10%;
+}
+h1{
+    color: rgb(119, 4, 4);
+}
+.ImpLinks h2{
+    font-size: 20px;
+    color: rgb(119, 4, 4);
+}
+.ImpLinks h3{
+    font-size: 19px;
+    color: rgb(73, 70, 70);
+}
+.ImpLinks p{
+    padding-left: 2%;
+    color: rgb(73, 70, 70);
+    font-size: 18px;
+}
+.ImpLinks a{
+    padding-left: 2%;
+    font-size: 18px;
+    color: rgb(119, 4, 4);
+    text-decoration: none;
+    display: inline-block;
+}
+.ImpLinks a::after{
+    content: '';
+    position: left;
+    width: 0%;
+    height: 3px;
+    background: rgb(119, 4, 4);
+    display: flex;
+    transition: 0.2s;
+}
+.ImpLinks a:hover::after{
+    width: 100%;
+}
+/*-----Footer Section-----*/
+.Fcontainer{
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.829),rgba(93, 91, 91, 0.7)),url("image/bkg-blu.jpg");
+}
+.Fcontainer h4{
+    color: rgb(94, 3, 3);
+    font-weight: 900;
+    padding-left: 50px;
+    font-size: large;
+}
+.Fcontainer ul li{
+    list-style: none;
+    padding: 0px 80px;
+    position: relative; 
+    padding-top: 15px;
+    display: inline-block;
+}
+.Fcontainer ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 900;
+    display: flex;
+}
+.Fcontainer li::after{
+    content: '';
+    position: left;
+    width: 0%;
+    height: 3px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    margin: 10px 0;
+    transition: 0.2s; 
+}
+.Fcontainer ul li:hover::after{
+    width: 100%;
+}
+/*----- End Section -----*/
+.End{
+    width: auto;
+    height: auto;
+    background-color: black;
+    display: flex;
+}
+.End img{
+    height: 200px;
+    width: 300px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.endbox{
+    display: inline-block;
+    padding: 2% 6%;
+    max-width: 1000px;
+    position: relative;
+}
+.endbox ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 20px;
+    text-align: left;
+}
+.endbox ul li a{
+    color: rgb(189, 180, 180);
+    font-size: 11px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    color: rgb(243, 243, 243);
+    font-size: 14px;
+}
+p1{
+    color: rgb(189, 180, 180);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@media only screen and (max-width: 1441px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+    }
+    body{
+        height: auto;
+    }
+    .navigation nav{
+        width: 100%;
+        height: 100px;
+        padding: 5% 10%;
+    }
+    .navigation nav img{
+        width: 100px;
+        height: auto;
+    }
+    .nav-links ul li{
+        padding: 8px 10px;
+    }
+    .nav-links ul li a {
+        font-size: 30px;
+    }
+    .SecondNavigation nav{
+        width: auto;
+        height: 400px;
+    }
+    .SecondNavigation nav img{
+        width: 300px;
+        height: auto;
+    }
+    .SecondNavigation h1{
+        font-size: 50px;
+    }
+    .SecondNavigation p{
+        font-size: 50px;
+        padding-left: 30px;
+    }
+    .secondnav-links ul li{
+        padding: 15px 30px;
+    }
+    .secondnav-links ul li a{
+        font-size: 40px;
+    }
+    .Cbody h1{
+        font-size: 50px;
+    }
+    .Cbody h2{
+        font-size: 45px;
+    }
+    .Cbody h3{
+        font-size: 40px;
+    }
+    .Cbody p, .Cbody p2 {
+        font-size: 30px;
+    }
+    .TB{
+        width: 100%;
+    }
+    th{
+        font-size: 40px;
+    }
+    td{
+        font-size: 30px;
+    }
+    .ImpLinks h1{
+        font-size: 60px;
+    }
+    .ImpLinks h2{
+        font-size: 40px;
+    }
+    .ImpLinks h3{
+        font-size: 35px;
+    }
+    .ImpLinks p, .ImpLinks a{
+        font-size: 30px;
+    }
+
+    .Fcontainer{
+        padding: 10% 10%;
+    }
+    .Fcontainer h4{
+        font-size: 37px;
+    }
+    .Fcontainer ul li{
+        display: flex;
+    }
+    .Fcontainer ul li a{
+        font-size: 30px;
+    }
+    .End{
+        height: 450px;
+    }
+    .End .pic{
+        padding-top: 4%;
+        padding-left: 5%;
+    }
+    .End img{
+        padding: 0;
+        width: 350px;
+        height: 300px;
+    }
+    .endbox h5{
+        font-size: 30px;
+    }
+    .endbox ul li a{
+        font-size: 25px;
+    }
+    .endbox p1{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 1096px){
+    .navigation nav{
+        width: 100%;
+        height: 100px;
+        padding: 5% 10%;
+    }
+    .navigation nav img{
+        width: 80px;
+        height: auto;
+    }
+    .nav-links ul li{
+        padding: 6px 7px;
+    }
+    .nav-links ul li a {
+        font-size: 25px;
+    }
+    .SecondNavigation nav{
+        width: auto;
+        height: 400px;
+    }
+    .SecondNavigation nav img{
+        width: 250px;
+        height: auto;
+    }
+    .SecondNavigation h1{
+        font-size: 45px;
+    }
+    .SecondNavigation p{
+        font-size: 45px;
+        padding-left: 30px;
+    }
+    .secondnav-links ul li{
+        padding: 15px 20px;
+    }
+    .secondnav-links ul li a{
+        font-size: 40px;
+    }
+    .End{
+        height: auto;
+    }
+}
+@media only screen and (max-width: 1081px){
+    body{
+        width: 100%;
+    }
+    .navigation nav img{
+        width: 80px;
+        height: auto;
+    }
+    .nav-links ul li{
+        padding: 7px 8px;
+    }
+    .nav-links ul li a {
+        font-size: 23px;
+    }
+    .secondnav-links ul li{
+        padding: 15px 20px;
+    }
+    .secondnav-links ul li a{
+        font-size: 35px;
+    }
+    .SecondBody{
+        width: 100%;
+    }
+    .ImpLinks {
+        width: 80%;
+    }
+    .endbox p1{
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 981px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+    }
+    .navigation{
+        width: 100%;
+    }
+    .navigation nav img{
+        width: 75px;
+    }
+    .nav-links ul li{
+        padding: 6px 7px;
+    }
+    .nav-links ul li a{
+        font-size: 20px;
+    }
+    .SecondNavigation p{
+        font-size: 40px;
+        padding-left: 30px;
+    }
+    .secondnav-links ul li{
+        padding: 10px 25px;
+    }
+    .secondnav-links ul li a{
+        font-size: 25px;
+    }   
+}

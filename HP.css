@@ -1,0 +1,577 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    width: auto;
+}
+/*---------------First Navigation Section------------*/
+.navigation{
+    height: auto;
+    width: 100%;
+}
+.navigation nav{
+    background-image: linear-gradient(rgba(104, 83, 87, 0.829),rgba(241, 240, 240, 0.7)),url("image/bkg-blu.jpg");
+    display: flex;
+    padding: 2% 10%;
+    justify-content: space-between;
+    align-items: center;
+    height: 10px;
+}
+nav img{
+     height: auto;
+     width: 30px; 
+}
+.nav-links{
+     flex: 1;
+     text-align: right;
+}
+.nav-links ul li{
+     list-style: none;
+     display: inline-block;
+     padding: 8px 12px;
+     position: relative; 
+     padding-top: 2px;  
+}
+.nav-links ul li a{
+     color: rgb(0, 0, 0);
+     text-decoration: none;
+     font-size: 15px;
+     font-weight: 700;
+}
+.nav-links ul li::after{
+     content: '';
+     width: 0%;
+     height: 2px;
+     background: rgb(102, 6, 6);
+     display: block;
+     margin: auto;
+     transition: 0.2s; 
+}
+.nav-links ul li:hover::after{
+     width: 100%;
+}
+/*---------------Second Navigation Section------------*/
+.SecondNavigation{
+    width: 100%;
+    height: auto;
+}
+nav{
+    background-image: linear-gradient(rgba(138, 81, 90, 0.829),rgba(255, 251, 251, 0.7)),url("image/bkg-blu.jpg");
+    display: flex;
+    padding: 2% 6%;
+    align-items: center;
+}
+.SecondNavigation nav img{
+    height: auto;
+    width: 130px;
+    padding-left: 15px;
+}
+.SecondNavigation h1{
+   color: rgb(122, 4, 4);
+   font-size: 30px;
+}
+.SecondNavigation p{
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    padding-left: 20px;
+    font-weight: 700;
+}
+.SecondNavigation .secondnav-links{
+    flex: 1;
+    text-align: left;
+}
+.secondnav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 20px;
+    position: relative; 
+    padding-top: 20px;
+}
+.secondnav-links ul li a{
+    color: rgb(95, 6, 6);
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+}
+.secondnav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: rgb(119, 4, 4);
+    display: block;
+    margin: auto;
+    transition: 0.2s; 
+}
+.secondnav-links ul li:hover::after{
+    width: 100%;
+}
+/*---------------Image Carousel Section------------*/
+.imageCarousel{
+    position: relative;
+    margin: auto;
+    height: auto;
+}
+.Containers {
+    display: none;
+}
+.imageCarousel > .Containers > img{
+    width:840px;
+    height:460px;
+}
+  /* Faint animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.4s;
+    animation-name: fade;
+    animation-duration: 1.4s;
+}
+  
+@-webkit-keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+}
+  
+@keyframes fade {
+    from {opacity: .5}
+    to {opacity: 2}
+}
+/*-----Body Section-----*/
+.BigContainer{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.829),rgba(216, 216, 231, 0.7)),url("image/bkg-blu.jpg");
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Con-head{
+    width: 80%;
+    padding-left: 10%;
+}
+.Con-head h1{
+    text-align: left;
+    color: rgb(122, 4, 4);
+    font-weight: 900;
+    font-size: 26px;
+    font-family: Arial, 'Times New Roman', Times, serif, sans-serif;
+}
+.Con-head h2{
+    text-align: left;
+    color: rgb(122, 4, 4);
+    font-weight: 900;
+    font-size: 22px;
+    font-family: Arial, 'Times New Roman', Times, serif, sans-serif;
+}
+.Con-head h4{
+    color: rgb(86, 85, 85);
+}
+.con-body{
+    width: 100%;
+    display: flex;
+    padding-left: 10%;
+}
+.con-body h1{
+    color: rgb(122, 4, 4);
+}
+.content{
+    display: inline-block;
+    text-align: left;
+    padding-right: 10%;
+}
+.VM ul{
+    line-height: 160%;
+    padding-left: 5%; 
+} 
+.GolOb ul{
+    line-height: 160%;
+    padding-left: 5%; 
+}
+.GolOb h2{
+    color: rgb(122, 4, 4);
+    font-size: 15px;
+    font-weight: 900;
+    padding-left: 15px;
+}
+.con-indent{
+    padding-left: 8%;
+}
+/*-----Second-Head Section-----*/
+.sec-head{
+    width: 100%;
+}
+.sec-header{
+    width: 100%;
+}
+.sec-header h1{
+    text-align: left;
+    color: rgb(122, 4, 4);
+    padding-left: 10%;
+    font-weight: 900;
+    font-size: 26px;
+    font-family: Arial, 'Times New Roman', Times, serif, sans-serif;
+}
+.sec-header p{
+    text-align: left;
+    padding-left: 13%;
+    font-size: 17px;
+    padding-right: 30px;
+}
+.sec-bod{
+    width: 100%;
+    display: flex;
+    padding-left: 10%;
+}
+.sec-bod h1{
+    color: rgb(122, 4, 4);
+}
+.contents{
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+    padding-right: 10%;
+}
+.contents .TP p{
+    padding-left: 3%;
+    line-height: 160%;
+}
+.contents .CV{
+    padding-left: 15%;
+}
+.CV p::first-letter{
+    font-weight: 900;
+    color: maroon;
+}
+/*-----Footer Section-----*/
+.Fcontainer{
+    height: auto;
+    width: auto;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.829),rgba(93, 91, 91, 0.7)),url("image/bkg-blu.jpg");
+}
+.Fcontainer h4{
+    color: rgb(94, 3, 3);
+    font-weight: 900;
+    padding-left: 50px;
+    font-size: large;
+}
+.Fcontainer ul li{
+    list-style: none;
+    padding: 0px 80px;
+    position: relative; 
+    padding-top: 15px;
+}
+.Fcontainer ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 900;
+}
+.Fcontainer li::after{
+    content: '';
+    position: left;
+    width: 0%;
+    height: 3px;
+    background: rgb(0, 0, 0);
+    display: flex;
+    margin: 10px 0;
+    transition: 0.2s; 
+}
+.Fcontainer ul li:hover::after{
+    width: 15%;
+}
+/*----- End Section -----*/
+.End{
+    width: auto;
+    height: auto;
+    background-color: black;
+    display: flex;
+}
+.End img{
+    height: 200px;
+    width: 300px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.endbox{
+    display: flex;
+    padding: 2% 6%;
+    max-width: 1000px;
+    position: relative;
+}
+.endbox ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 5px 20px;
+    text-align: left;
+}
+.endbox ul li a{
+    color: rgb(189, 180, 180);
+    font-size: 11px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    color: rgb(243, 243, 243);
+    font-size: 14px;
+}
+p1{
+    color: rgb(189, 180, 180);
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*-------------------Media Section-------------------------------------*/
+@media only screen and (max-width: 1441px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing:border-box;
+    }
+    body{
+        height: auto;
+    }
+    .navigation nav{
+        width: 100%;
+        height: 100px;
+        padding: 5% 10%;
+    }
+    .navigation nav img{
+        width: 100px;
+        height: auto;
+    }
+    .nav-links ul li{
+        padding: 8px 10px;
+    }
+    .nav-links ul li a {
+        font-size: 30px;
+    }
+    .SecondNavigation nav{
+        width: auto;
+        height: 400px;
+    }
+    .SecondNavigation nav img{
+        width: 300px;
+        height: auto;
+    }
+    .SecondNavigation h1{
+        font-size: 50px;
+    }
+    .SecondNavigation p{
+        font-size: 50px;
+        padding-left: 30px;
+    }
+    .secondnav-links ul li{
+        padding: 15px 30px;
+    }
+    .secondnav-links ul li a{
+        font-size: 40px;
+    }
+    .BigContainer{
+        width: 100%;
+    }
+    .Con-head h1{
+        font-size: 50px;
+    }
+    .Con-head h2{
+        font-size: 40px;
+    }
+    .Con-head h4{
+        font-size: 33px;
+    }
+    .Con-head p{
+        font-size: 30px;
+    }
+    .con-body h1{
+        font-size: 40px;
+    }
+    .con-body h2{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .con-body p{
+        font-size: 30px;
+    }
+    .con-body p2{
+        font-size: 30px;
+    }
+    .VM ul li {
+        font-size: 30px;
+        line-height: 170%;
+    }
+    .GolOb ul li {
+        font-size: 30px;
+        line-height: 170%;
+    }
+    .sec-head h1{
+        font-size: 50px;
+    }
+    .sec-head p{
+        font-size: 30px;
+    }
+    .Fcontainer h4{
+        font-size: 37px;
+    }
+    .Fcontainer ul li a{
+        font-size: 30px;
+    }
+    .End{
+        height: 450px;
+    }
+    .End .pic{
+        padding-top: 4%;
+        padding-left: 5%;
+    }
+    .End img{
+        padding: 0;
+        width: 350px;
+        height: 300px;
+    }
+    .endbox h5{
+        font-size: 30px;
+    }
+    .endbox ul li a{
+        font-size: 25px;
+    }
+    .endbox p1{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 1096px){
+    .navigation nav{
+        width: 100%;
+        height: 100px;
+        padding: 5% 10%;
+    }
+    .navigation nav img{
+        width: 80px;
+        height: auto;
+    }
+    .nav-links ul li{
+        padding: 6px 7px;
+    }
+    .nav-links ul li a {
+        font-size: 25px;
+    }
+    .SecondNavigation nav{
+        width: auto;
+        height: 400px;
+    }
+    .SecondNavigation nav img{
+        width: 250px;
+        height: auto;
+    }
+    .SecondNavigation h1{
+        font-size: 45px;
+    }
+    .SecondNavigation p{
+        font-size: 45px;
+        padding-left: 30px;
+    }
+    .secondnav-links ul li{
+        padding: 15px 20px;
+    }
+    .secondnav-links ul li a{
+        font-size: 40px;
+    }
+    .End{
+        height: auto;
+    }
+
+}
+@media only screen and (max-width: 1080px){
+    .navigation nav{
+        width: 100%;
+        height: 50px;
+    }
+    .nav-links ul li{
+        padding: 0px 0px;
+    }
+    .nav-links ul li a{
+        font-size: 25px;
+    }
+    .SecondNavigation p{
+        padding-left: 30px;
+    }
+    .SecondNavigation ul li a{
+        font-size: 30px;
+    }
+    .End{
+        height: auto;
+    }
+}
+@media only screen and (max-width: 751px){
+    .navigation{
+        width: 100%;
+    }
+    .navigation nav{
+        width: 100%;
+        height: 50px;
+    }
+    .navigation nav img{
+        width: 50px;
+        height: auto;
+    }
+    .nav-links ul li{
+        padding: 0px 0px;
+    }
+    .nav-links ul li a{
+        font-size: 15px;
+    }
+    .SecondNavigation nav img{
+        width: 200px;
+        height: auto;
+    }
+    .SecondNavigation h1{
+        font-size: 45px;
+    }
+    .SecondNavigation p{
+        font-size: 30px;
+        padding-left: 5px;
+    }
+    .secondnav-links ul li{
+        padding: 0px 5px;
+    }
+    .secondnav-links ul li a{
+        font-size: 25px;
+    }
+    .End{
+        height: auto;
+    }
+    .End .pic{
+        padding-top: 4%;
+        padding-left: 5%;
+    }
+    .End img{
+        padding: 0;
+        width: 300px;
+        height: 250px;
+    }
+    .endbox h5{
+        font-size: 20px;
+    }
+    .endbox ul li a{
+        font-size: 16px;
+    }
+    .endbox p1{
+        font-size: 16px;
+    }
+
+}
+@media only screen and (max-width: 721px){
+    .imageCarousel > .Containers > img{
+        height: 400px;
+    }
+}
+@media only screen and (max-width: 641px){
+    .SecondNavigation h1{
+        font-size: 25px;
+    }
+    .SecondNavigation p{
+        font-size: 23px;
+        padding-left: 8%;
+    }
+    .secondnav-links ul li a{
+        font-size: 18px;
+    }
+    .secondnav-links ul li{
+        padding-left: 8%;
+    }
+}
