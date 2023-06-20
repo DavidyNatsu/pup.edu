@@ -598,6 +598,20 @@ p1{
     .imageCarousel > .Containers > img{
         height: 400px;
     }
+    .End img{
+        padding: 0;
+        width: 200px;
+        height: 150px;
+    }
+    .endbox h5{
+        font-size: 18px;
+    }
+    .endbox ul li a{
+        font-size: 14px;
+    }
+    .endbox p1{
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width: 641px){
     .SecondNavigation h1{
@@ -612,19 +626,5 @@ p1{
     }
     .secondnav-links ul li{
         padding-left: 8%;
-    }
-    .End img{
-        padding: 0;
-        width: 200px;
-        height: 150px;
-    }
-    .endbox h5{
-        font-size: 18px;
-    }
-    .endbox ul li a{
-        font-size: 14px;
-    }
-    .endbox p1{
-        font-size: 14px;
     }
 }
