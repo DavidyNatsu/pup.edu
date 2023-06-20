@@ -556,6 +556,45 @@ p1{
 
 }
 @media only screen and (max-width: 721px){
+    .Con-head h1{
+        font-size: 30px;
+    }
+    .Con-head h2{
+        font-size: 25px;
+    }
+    .Con-head h4{
+        font-size: 26px;
+    }
+    .Con-head p{
+        font-size: 20px;
+    }
+    .con-body h1{
+        font-size: 30px;
+    }
+    .con-body h2{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .con-body p{
+        font-size: 20px;
+    }
+    .con-body p2{
+        font-size: 20px;
+    }
+    .VM ul li {
+        font-size: 20px;
+        line-height: 170%;
+    }
+    .GolOb ul li {
+        font-size: 20px;
+        line-height: 170%;
+    }
+    .sec-head h1{
+        font-size: 40px;
+    }
+    .sec-head p{
+        font-size: 20px;
+    }
     .imageCarousel > .Containers > img{
         height: 400px;
     }
